@@ -1,7 +1,7 @@
 import React from 'react';
 import { CheckCircle, ArrowRight } from 'lucide-react';
 import FadeInSection from './FadeInSection';
-import Fix from '../../dist/assets/Fix.png'
+import Fix from '../../src/assets/images/Fix.png'
 
 const Hero = () => {
   return (

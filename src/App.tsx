@@ -8,22 +8,22 @@ import Footer from './components/Footer';
 
 function App() {
   return (
-    <div className="min-h-screen scroll-smooth">
+    <div className="scroll-smooth min-h-screen">
       <Header />
 
-      <section id="home">
+      <section id="home" className="scroll-mt-24">
         <Hero />
       </section>
 
-      <section id="product">
+      <section id="product" className="scroll-mt-24">
         <ProductSection />
       </section>
 
-      <section id="about">
+      <section id="about" className="scroll-mt-24">
         <AboutSection />
       </section>
 
-      <section id="contact">
+      <section id="contact" className="scroll-mt-24">
         <ContactSection />
       </section>
 

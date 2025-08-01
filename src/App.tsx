@@ -8,12 +8,25 @@ import Footer from './components/Footer';
 
 function App() {
   return (
-    <div className="min-h-screen">
+    <div className="min-h-screen scroll-smooth">
       <Header />
-      <Hero />
-      <ProductSection />
-      <AboutSection />
-      <ContactSection />
+
+      <section id="home">
+        <Hero />
+      </section>
+
+      <section id="product">
+        <ProductSection />
+      </section>
+
+      <section id="about">
+        <AboutSection />
+      </section>
+
+      <section id="contact">
+        <ContactSection />
+      </section>
+
       <Footer />
     </div>
   );

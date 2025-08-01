@@ -34,7 +34,7 @@ const ContactSection = () => {
             Get in <span className="text-emerald-600">Touch</span>
           </h2>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-            Have questions about Fix Healing Oil or need assistance with your order? 
+            Have questions about FIX Healing Oil or need assistance with your order? 
             We're here to help you find the natural relief you deserve.
           </p>
         </div>

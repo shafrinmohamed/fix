@@ -37,19 +37,11 @@ const AboutSection = () => {
             </h2>
             <div className="space-y-6 text-gray-600 leading-relaxed">
               <p className="text-lg">
-                For over 25 years, Herbs & Drugs Pvt Ltd has been at the forefront of natural healing solutions, 
-                combining traditional herbal wisdom with modern pharmaceutical expertise to create effective, 
-                safe therapeutic products.
+                At Herbs & Drugs Pvt Limited, we believe in the healing power of nature. Since 2021, our mission has been to provide effective, herbal-based solutions for everyday health concerns—safely, gently, and naturally. Backed by traditional wisdom and modern expertise, our remedies are formulated by a trusted herbal expert with years of experience.
+
               </p>
               <p>
-                Our flagship product, Fix Healing Oil, represents decades of research and development in natural 
-                pain relief. We understand that headaches, colds, and migraines can significantly impact your 
-                quality of life, which is why we've dedicated ourselves to creating a solution that works.
-              </p>
-              <p>
-                Every bottle of Fix oil is manufactured in our state-of-the-art facility, following strict 
-                quality control measures and using only the finest natural ingredients sourced from trusted 
-                suppliers around the world.
+                We’re proud to offer products that are free from harmful chemicals, clinically effective, and made with premium-quality herbs. Whether it’s a throbbing headache, cracked feet, or discomfort from varicose veins, our products are designed to bring fast relief and lasting comfort.
               </p>
             </div>
             <div className="mt-8 grid grid-cols-2 gap-8">

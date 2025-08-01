@@ -1,5 +1,7 @@
 import React from 'react';
 import { MapPin, Phone, Mail, Facebook, Twitter, Instagram, Linkedin } from 'lucide-react';
+import logo from '../../src/assets/images/logo.png';
+
 
 const Footer = () => {
   return (
@@ -9,9 +11,11 @@ const Footer = () => {
           {/* Company Info */}
           <div className="lg:col-span-2">
             <div className="flex items-center space-x-3 mb-6">
-              <div className="w-12 h-12 bg-gradient-to-br from-emerald-500 to-teal-600 rounded-lg flex items-center justify-center">
-                <span className="text-white font-bold text-lg">H&D</span>
-              </div>
+              <img
+              src={logo}
+              alt="Logo"
+              style={{ width: '60px', height: '60px' }}
+            />
               <div>
                 <h3 className="text-xl font-bold">Herbs & Drugs Pvt Ltd</h3>
                 <p className="text-gray-400 text-sm">Natural Healing Solutions</p>
@@ -19,7 +23,7 @@ const Footer = () => {
             </div>
             <p className="text-gray-300 leading-relaxed mb-6 max-w-md">
               For over 25 years, we've been dedicated to providing natural, effective healing solutions. 
-              Our Fix Healing Oil represents our commitment to quality and your wellbeing.
+              Our FIX Healing Oil represents our commitment to quality and your wellbeing.
             </p>
             <div className="flex space-x-4">
               <a href="#" className="w-10 h-10 bg-gray-800 rounded-lg flex items-center justify-center hover:bg-emerald-600 transition-colors">
@@ -42,7 +46,7 @@ const Footer = () => {
             <h4 className="text-lg font-semibold mb-6">Quick Links</h4>
             <ul className="space-y-3">
               <li><a href="#home" className="text-gray-300 hover:text-emerald-400 transition-colors">Home</a></li>
-              <li><a href="#product" className="text-gray-300 hover:text-emerald-400 transition-colors">Fix Oil</a></li>
+              <li><a href="#product" className="text-gray-300 hover:text-emerald-400 transition-colors">FIX Oil</a></li>
               <li><a href="#about" className="text-gray-300 hover:text-emerald-400 transition-colors">About Us</a></li>
               <li><a href="#contact" className="text-gray-300 hover:text-emerald-400 transition-colors">Contact</a></li>
               <li><a href="#" className="text-gray-300 hover:text-emerald-400 transition-colors">FAQs</a></li>

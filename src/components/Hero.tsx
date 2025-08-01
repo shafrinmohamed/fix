@@ -17,7 +17,7 @@ const Hero = () => {
               
               <h1 className="text-5xl lg:text-6xl font-bold text-gray-900 leading-tight">
                 Natural Relief with
-                <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-600 to-teal-600"> Fix</span>
+                <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-600 to-teal-600"> FIX</span>
                 <span className="block text-3xl lg:text-4xl mt-2 text-gray-700">Healing Oil</span>
               </h1>
 
@@ -35,11 +35,11 @@ const Hero = () => {
               </div>
               <div className="flex items-center space-x-3 bg-white p-4 rounded-lg shadow-sm">
                 <CheckCircle className="h-5 w-5 text-emerald-500 flex-shrink-0" />
-                <span className="text-gray-700 font-medium">Cold Symptoms</span>
+                <span className="text-gray-700 font-medium">Migraine Care</span>
               </div>
               <div className="flex items-center space-x-3 bg-white p-4 rounded-lg shadow-sm">
                 <CheckCircle className="h-5 w-5 text-emerald-500 flex-shrink-0" />
-                <span className="text-gray-700 font-medium">Migraine Care</span>
+                <span className="text-gray-700 font-medium">Cold Symptoms</span>
               </div>
             </div>
 

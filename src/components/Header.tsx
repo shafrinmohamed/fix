@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Menu, X, Phone, Mail } from 'lucide-react';
+import logo from '../../src/assets/images/logo.png';
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -27,9 +28,11 @@ const Header = () => {
         {/* Main navigation */}
         <div className="flex items-center justify-between py-4">
           <div className="flex items-center space-x-3">
-            <div className="w-10 h-10 bg-gradient-to-br from-emerald-500 to-teal-600 rounded-lg flex items-center justify-center">
-              <span className="text-white font-bold text-lg">H&D</span>
-            </div>
+            <img
+              src={logo}
+              alt="Logo"
+              style={{ width: '40px', height: '40px' }}
+            />
             <div>
               <h1 className="text-xl font-bold text-gray-800">Herbs & Drugs</h1>
               <p className="text-xs text-gray-500">Pvt Ltd</p>
@@ -39,7 +42,7 @@ const Header = () => {
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center space-x-8">
             <a href="#home" className="text-gray-700 hover:text-emerald-600 transition-colors font-medium">Home</a>
-            <a href="#product" className="text-gray-700 hover:text-emerald-600 transition-colors font-medium">Fix Oil</a>
+            <a href="#product" className="text-gray-700 hover:text-emerald-600 transition-colors font-medium">FIX Oil</a>
             <a href="#about" className="text-gray-700 hover:text-emerald-600 transition-colors font-medium">About</a>
             <a href="#contact" className="text-gray-700 hover:text-emerald-600 transition-colors font-medium">Contact</a>
             <button className="bg-gradient-to-r from-emerald-500 to-teal-600 text-white px-6 py-2 rounded-full hover:shadow-lg transition-all duration-300 font-medium">
@@ -61,7 +64,7 @@ const Header = () => {
           <div className="md:hidden py-4 border-t border-gray-100">
             <nav className="flex flex-col space-y-4">
               <a href="#home" className="text-gray-700 hover:text-emerald-600 transition-colors">Home</a>
-              <a href="#product" className="text-gray-700 hover:text-emerald-600 transition-colors">Fix Oil</a>
+              <a href="#product" className="text-gray-700 hover:text-emerald-600 transition-colors">FIX Oil</a>
               <a href="#about" className="text-gray-700 hover:text-emerald-600 transition-colors">About</a>
               <a href="#contact" className="text-gray-700 hover:text-emerald-600 transition-colors">Contact</a>
               <button className="bg-gradient-to-r from-emerald-500 to-teal-600 text-white px-6 py-2 rounded-full hover:shadow-lg transition-all duration-300 w-fit">

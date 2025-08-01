@@ -30,7 +30,7 @@ const ProductSection = () => {
     {
       name: "Sarah Johnson",
       rating: 5,
-      text: "Fix oil has been a game-changer for my chronic migraines. I finally found natural relief!"
+      text: "FIX oil has been a game-changer for my chronic migraines. I finally found natural relief!"
     },
     {
       name: "Michael Chen",
@@ -40,7 +40,7 @@ const ProductSection = () => {
     {
       name: "Emma Davis",
       rating: 5,
-      text: "The quality is exceptional. I've tried many products, but Fix oil actually works."
+      text: "The quality is exceptional. I've tried many products, but FIX oil actually works."
     }
   ];
 
@@ -50,7 +50,7 @@ const ProductSection = () => {
         {/* Section Header */}
         <div className="text-center mb-16 transition-all duration-1000 ease-out opacity-0 translate-y-8 animate-fade-in-delayed">
           <h2 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-6">
-            Why Choose <span className="text-emerald-600">Fix</span> Healing Oil?
+            Why Choose <span className="text-emerald-600">FIX</span> Healing Oil?
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
             Our premium therapeutic oil combines traditional herbal wisdom with modern manufacturing standards 
@@ -108,7 +108,7 @@ const ProductSection = () => {
                 </div>
               </div>
               <button className="bg-gradient-to-r from-emerald-500 to-teal-600 text-white px-8 py-4 rounded-full hover:shadow-lg transition-all duration-300 font-semibold">
-                Order Fix Oil Today
+                Order FIX Oil Today
               </button>
             </div>
             <div className="relative">
